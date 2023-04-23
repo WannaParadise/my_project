@@ -7,8 +7,6 @@ import path from 'path';
 import { UploadedFile } from 'express-fileupload';
 
 
-
-
 export class UserController {
   static async getAllUsers(_: Request, res: Response) {
     const userRepository = getRepository(User);
